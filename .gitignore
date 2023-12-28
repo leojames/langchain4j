@@ -1,38 +1,39 @@
-﻿# kdiff3 ignore
-*.orig
-
-# maven ignore
 target/
 
-# eclipse ignore
-.settings/
-.project
-.classpath
-
-# idea ignore
-.vscode/
-.idea/
-*.ipr
-*.iml
+### IntelliJ IDEA ###
+.idea/*
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
 *.iws
+*.iml
+*.ipr
 
-# temp ignore
-*.log
-*.cache
-*.diff
-*.patch
-*.tmp
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# system ignore
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
 .DS_Store
-Thumbs.db
 
-# package ignore (optional)
-# *.jar
-# *.war
-# *.zip
-# *.tar
-# *.tar.gz
-
-# pods ignore
-Pods/
+### .env files contain local environment variables ###
+.env

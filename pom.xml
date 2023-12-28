@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>dev.langchain4j</groupId>
+    <artifactId>langchain4j-aggregator</artifactId>
+    <version>0.26.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+
+        <module>langchain4j-parent</module>
+        <module>langchain4j-bom</module>
+
+        <module>langchain4j-core</module>
+        <module>langchain4j</module>
+
+        <!-- model providers -->
+        <module>langchain4j-azure-open-ai</module>
+        <module>langchain4j-bedrock</module>
+        <module>langchain4j-chatglm</module>
+        <module>langchain4j-dashscope</module>
+        <module>langchain4j-hugging-face</module>
+        <module>langchain4j-local-ai</module>
+        <module>langchain4j-ollama</module>
+        <module>langchain4j-open-ai</module>
+        <module>langchain4j-vertex-ai</module>
+        <module>langchain4j-vertex-ai-gemini</module>
+
+        <!-- embedding stores -->
+        <module>langchain4j-cassandra</module>
+        <module>langchain4j-chroma</module>
+        <module>langchain4j-elasticsearch</module>
+        <module>langchain4j-milvus</module>
+        <module>langchain4j-opensearch</module>
+        <module>langchain4j-pgvector</module>
+        <module>langchain4j-pinecone</module>
+        <module>langchain4j-redis</module>
+        <module>langchain4j-vespa</module>
+        <module>langchain4j-weaviate</module>
+        <module>langchain4j-neo4j</module>
+
+        <!-- document loaders -->
+        <module>document-loaders/langchain4j-document-loader-amazon-s3</module>
+
+        <!-- document parsers -->
+        <module>document-parsers/langchain4j-document-parser-apache-pdfbox</module>
+        <module>document-parsers/langchain4j-document-parser-apache-poi</module>
+
+        <!-- code execution engines -->
+        <module>code-execution-engines/langchain4j-code-execution-engine-graalvm-polyglot</module>
+
+    </modules>
+
+</project>
