@@ -11,6 +11,7 @@
     <properties>
         <java_source_version>1.8</java_source_version>
         <java_target_version>1.8</java_target_version>
+        <mvn_version>3.3.9</mvn_version>
     </properties>
 
     <modules>

@@ -14,10 +14,6 @@
     <url>https://github.com/langchain4j/langchain4j</url>
 
     <properties>
-        <maven_compiler_plugin_version>3.2</maven_compiler_plugin_version>
-        <java_source_version>1.8</java_source_version>
-        <java_target_version>1.8</java_target_version>
-        <file_encoding>UTF-8</file_encoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -306,21 +302,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.1.2</version>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven_compiler_plugin_version}</version>
-                <configuration>
-                    <source>${java_source_version}</source>
-                    <target>${java_target_version}</target>
-                    <encoding>${file_encoding}</encoding>
-                    <compilerArgs>
-                        <arg>-J-Duser.country=US</arg>
-                    </compilerArgs>
-                    <debug>true</debug>
-                    <fork>true</fork>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
