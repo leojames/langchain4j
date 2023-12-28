@@ -16,6 +16,7 @@
 
     <name>langchain4j-core</name>
     <description>Core classes and interfaces of langchain4j</description>
+
     <dependencies>
 
         <dependency>
