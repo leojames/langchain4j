@@ -16,10 +16,6 @@
 
     <name>langchain4j-core</name>
     <description>Core classes and interfaces of langchain4j</description>
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
     <dependencies>
 
         <dependency>
